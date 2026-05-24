@@ -14,29 +14,25 @@ void update_product()
 	scanf("%d", &id);
 
 	temp = head;
-	prev = NULL;
-
-	while (temp)
+	
+	while(temp)
 	{
-		if (temp->id == id)
-		{
-			if (temp == head)
-			{
-				head = temp->next;
-			}
-			else
-			{
-				prev->next = temp->next;
-			}
+	if(temp->id == id)
+	{
+		printf("Enter New Name: ");
+		scanf(" %[^\n]", temp->name);
 
-			free(temp);
+		printf("Enter New Quantity: ");
+		scanf(" %d", &temp->quantity);
+		
+		
+		printf("Enter New Price: ");
+		scanf(" %f", &temp->price);
 
-			printf("Product Deleted Successfully\n");
-			return;
-		}
-
-		prev = temp;
-		temp = temp->next;
+		printf("Product Updated Successfully\n");
+		return;
+	}
+	temp = temp->next;
 	}
 	printf("Product Not Found\n");
 }
