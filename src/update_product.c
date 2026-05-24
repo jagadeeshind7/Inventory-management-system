@@ -10,6 +10,14 @@ void update_product()
 		printf("No Products Available");
 		return;
 	}
+ .  printf("Enter Product ID to update: ");
+ scanf("%d", &id);
 
+ temp = head;
+
+ while(temp)
+ {
+	if(temp->id == id)
+ }
 
 }
