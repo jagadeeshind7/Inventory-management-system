@@ -24,7 +24,7 @@ void add_product();
 void view_products();
 void search_product();
 void update_product();
-
+void delete_product();
 
 PRODUCT *create_node();
 

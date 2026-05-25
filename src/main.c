@@ -39,11 +39,11 @@ int main()
 			case 4:
 				update_product();
 				break;
-/*
+
 			case 5:
 				delete_product();
 				break;
-*/
+
 			case 6:
 				exit(0);
 
