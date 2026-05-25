@@ -26,6 +26,9 @@ void search_product();
 void update_product();
 void delete_product();
 
+void save_to_file();
+void load_from_file();
+
 PRODUCT *create_node();
 
 #endif
