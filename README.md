@@ -59,8 +59,9 @@ The application allows users to manage products efficiently through a terminal-b
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
+```text
 Inventory-management-system/
 │
 ├── data/
@@ -81,16 +82,20 @@ Inventory-management-system/
 │
 ├── Makefile
 └── README.md
+```
 
 ⚙️ Compilation
 
 Using GCC :
-
+```bash
 cc src/*.c -Iincludes -o inventory
+```
 
 ▶️ Run Project
 
+```bash
 ./inventory
+```
 
 📸 Sample Output
 
