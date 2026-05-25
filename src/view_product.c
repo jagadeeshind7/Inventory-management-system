@@ -20,6 +20,7 @@ void view_products()
 		printf("\nName      :%s\n", temp->name);
 		printf("\nQuantity  :%d\n", temp->quantity);
 		printf("\nPrice     :%.2f\n", temp->price);
+		printf("\n");
 
 		temp = temp->next;
 	}

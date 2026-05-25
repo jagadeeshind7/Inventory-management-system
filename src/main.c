@@ -13,7 +13,7 @@ int main()
 	{
 		printf("\n===== INVENTORY MANAGEMENT SYSTEM =====\n");
 
-		printf("1. Add product\n");
+		printf("\n1. Add product\n");
 		printf("2. View product\n");	
 		printf("3. Search product\n");	
 		printf("4. Update product\n");
@@ -21,7 +21,7 @@ int main()
 		printf("6. Save Data\n");
 		printf("7. Exit\n");
 
-		printf("Enter choice: ");
+		printf("\nEnter choice: ");
 		scanf("%d",&choice);
 
 		switch(choice)
