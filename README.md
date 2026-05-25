@@ -1,5 +1,4 @@
 # 📦 Inventory Management System in C
-
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Data%20Structure-Linked%20List-green?style=for-the-badge"/>
@@ -62,7 +61,6 @@ The application allows users to manage products efficiently through a terminal-b
 
 # 📂 Project Structure
 
-```text
 Inventory-management-system/
 │
 ├── data/
@@ -107,3 +105,30 @@ cc src/*.c -Iincludes -o inventory
 
 Enter choice:
 
+🧠 Concepts Covered
+
+* Structures
+* Pointers
+* Linked Lists
+* Dynamic Memory Allocation
+* File Handling
+* Modular Programming
+* CRUD Operations
+
+📈 Future Improvements
+
+* Admin Login
+* Billing System
+* Product Sorting
+* CSV Export
+* Low Stock Alert
+* ANSI Color UI
+* Search by Name
+
+🧑‍💻 Author
+
+Jagadeesh M
+
+## 📜 License
+
+This project is licensed under the MIT License.
